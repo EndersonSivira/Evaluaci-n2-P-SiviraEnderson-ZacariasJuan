@@ -1,59 +1,126 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Nombre de la Universidad y Carrera:
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+-Universidad Politecnica Territorial del Estado Aragua Federico Brito Figueroa "UPT Aragua"
 
-## About Laravel
+-P.N.F Informática
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+-Sección: 1
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+-Trayecto: 2
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+-FASE III
 
-## Learning Laravel
+Nombres completos de los integrantes:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+-Enderson Sivira
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+-Juan Zacarias
 
-## Laravel Sponsors
+Enunciado asignado:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+-Enunciado 10: Musica
 
-### Premium Partners
+Instrucciones breves para ejecutar el proyecto:
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+1-Abrir una terminal dentro de la carpeta del proyecto
 
-## Contributing
+2-Ejecutar este comando para descargar las dependencias necesarias de Laravel: composer install
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+3-Configurar el archivo .env, usamos este comando para hacerlo mas facil: cp .env.example .env
 
-## Code of Conduct
+4-Generamos la "Llave Maestra" con este comando: php artisan key:generate
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+5-Preparamos la Base de Datos:
 
-## Security Vulnerabilities
+Dentro de la carpeta database, creamos un archivo nuevo vacío llamado database.sqlite
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+6-Creamos las tablas (Migraciones) con: php artisan migrate
 
-## License
+7-Ver el proyecto:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Ejecuta el comando: php artisan serve
+Nombre de la Universidad y Carrera:
+
+-Universidad Politecnica Territorial del Estado Aragua Federico Brito Figueroa "UPT Aragua"
+
+-P.N.F Informática
+
+-Sección: 1
+
+-Trayecto: 2
+
+-FASE III
+
+Nombres completos de los integrantes:
+
+-José Alejandro Páez Olivo
+
+-Jose Enmanuel Fernandez Alayon
+
+Enunciado asignado:
+
+-Enunciado 2: Clinica
+
+Instrucciones breves para ejecutar el proyecto:
+
+1-Abrir una terminal dentro de la carpeta del proyecto
+
+2-Ejecutar este comando para descargar las dependencias necesarias de Laravel: composer install
+
+3-Configurar el archivo .env, usamos este comando para hacerlo mas facil: cp .env.example .env
+
+4-Generamos la "Llave Maestra" con este comando: php artisan key:generate
+
+5-Preparamos la Base de Datos:
+
+Dentro de la carpeta database, creamos un archivo nuevo vacío llamado database.sqlite
+
+6-Creamos las tablas (Migraciones) con: php artisan migrate
+
+7-Ver el proyecto:
+
+Ejecuta el comando: php artisan serve
+
+Nombre de la Universidad y Carrera:
+
+-Universidad Politecnica Territorial del Estado Aragua Federico Brito Figueroa "UPT Aragua"
+
+-P.N.F Informática
+
+-Sección: 1
+
+-Trayecto: 2
+
+-FASE III
+
+Nombres completos de los integrantes:
+
+-José Alejandro Páez Olivo
+
+-Jose Enmanuel Fernandez Alayon
+
+Enunciado asignado:
+
+-Enunciado 2: Clinica
+
+Instrucciones breves para ejecutar el proyecto:
+
+1-Abrir una terminal dentro de la carpeta del proyecto
+
+2-Ejecutar este comando para descargar las dependencias necesarias de Laravel: composer install
+
+3-Configurar el archivo .env, usamos este comando para hacerlo mas facil: cp .env.example .env
+
+4-Generamos la "Llave Maestra" con este comando: php artisan key:generate
+
+5-Preparamos la Base de Datos:
+
+Dentro de la carpeta database, creamos un archivo nuevo vacío llamado database.sqlite
+
+6-Creamos las tablas (Migraciones) con: php artisan migrate
+
+7-Ver el proyecto:
+
+Ejecuta el comando: php artisan serve
+
+Abre en el navegador: http://127.0.0.1:8000/albunes
